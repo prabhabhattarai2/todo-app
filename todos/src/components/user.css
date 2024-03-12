@@ -1,0 +1,119 @@
+
+
+
+.list{
+    display: flex;
+    max-width: 600px;
+    justify-content: space-between;
+    margin: 5px;
+    background-color: rgb(205, 167, 241);
+    padding: 5px 15px ;
+    font-size: 0.9rem;
+    border: 2px solid rgb(109, 112, 109);
+    border-radius: 1px;
+}
+
+
+#delete{
+    margin:  5px;
+    color: rgb(226, 4, 4);
+    border-style: none;
+    width: 60px;
+    height: 25px;
+}
+#delete:hover{
+    cursor: pointer;
+
+    color: white;
+    background-color: rgb(226, 4, 4);
+}
+#edit:hover{
+    cursor: pointer;
+    
+    color: white;
+    background-color: rgb(86, 192, 95);
+    
+}
+#edit{
+    height: 25px;
+    border-style: none;
+    width: 60px;
+    color: green;
+    cursor: pointer;
+}
+#edit:disabled{
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+#edit:disabled:hover{
+    opacity: 0.8;
+    cursor: not-allowed;
+ 
+}
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+.listItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.allList .active{
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+.center{
+    justify-content: center;
+    background-color: rgb(169, 127, 207);
+    padding-bottom: 15px;
+}
+.center input{
+    /* border-radius: ; */
+    border-style: double;
+    
+}
+.center h1{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: rgb(241, 231, 231);
+}
+.center input{
+    height: 30px;
+    width: 400px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.center input::placeholder{
+    color: rgb(3, 73, 73);
+    /* align-self: center; */
+    text-align: center;
+    text-transform: uppercase;
+}
+.center button{
+    margin-top: 10px;
+    height: 32px;
+    width: 60px;
+    border-style: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(109, 103, 103);
+}
+.center button:hover{
+    background-color: rgb(224, 42, 42);
+}
+
+/* media query starts */
+
+
+   
+    
+       
+    
+
+
+
+
